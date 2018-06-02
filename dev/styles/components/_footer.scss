@@ -1,0 +1,57 @@
+footer{
+  background-color:  #26272f;
+  padding-top: 7rem;
+  .number{
+    font-family: 'Lato', sans-serif;
+    color:  #ffffff;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+  }
+  .address{
+    font-family: 'Lato', sans-serif;
+    color:  #ffffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .social{
+    display: flex;
+    justify-content:center;
+    padding: 1rem 0;
+    .href{
+      width: 2.6rem;
+      height: 2.6rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 .5rem;
+    }
+    .face{
+      background-image: url(../img/face.png);
+    }
+    .twit{
+      background-image: url(../img/twit.png);
+    }
+    .inst{
+      background-image: url(../img/inst.png);
+    }
+    .beha{
+      background-image: url(../img/beha.png);
+    }
+    .ball{
+      background-image: url(../img/ball.png);
+    }
+  }
+  .end{
+    font-family: 'Lato', sans-serif;
+    color:  #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+    padding: 1.8rem 0;
+    border-top: 1px solid #383838;
+    margin: 0;
+  }
+}

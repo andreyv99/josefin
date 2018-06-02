@@ -1,0 +1,184 @@
+main
+  section.aboutMe
+    .container
+      .row.entry
+        img.col-12.col-md-6.col-lg-5(src="assets/img/aboutMe.jpg")
+        .col-12.col-md-6.col-lg-7
+          .name
+            h3 Josefin Doe
+            p UI/UX Designer
+          .social
+            p Follow Me on:
+            a.href.face(href="#" alt="#")
+            a.href.twit(href="#" alt="#")
+            a.href.inst(href="#" alt="#")
+            a.href.beha(href="#" alt="#")
+            a.href.ball(href="#" alt="#")
+      .row.personalBiography
+        .information.col-12.col-md-6
+          h3 personal information
+          .point
+            p Name
+            p.value : Los Angel
+          .point
+            p Date of Birth
+            p.value  :  31 December 2016
+          .point
+            p Address     
+            p.value :  21/A Lorem Street, Los Angel California - 10000
+          .point
+            p Phone
+            p.value :  +880 1630742521
+          .point
+            p E-mail
+            p.value :  muslimmahin@gmail.com
+        .biography.col-12.col-md-6
+          h3 biography
+          p Hello there, I’m a fully professional graphic designer with over 5 years of experience. I’m a self taught designer, and it’s something I am incredibly passionate about. I’m a dedicated worker and believe in working hard for my clients, so they get the most unique designs.
+          a(href="#" alt="#") Download CV
+  section.education
+    .container
+      h2 education
+      .row.degree
+        .col-1.blue
+          span.year 2011-2012
+        .col-10
+          h4 Masters Degree
+          p.university dhaka university
+          p.about A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.A wonderful serenity has taken possession of my entire soul, like these sweet mornings.
+        .col-md-1.empty
+      .row.degree
+        .col-md-1.empty
+        .col-10.alignRight
+          h4 Bachelor of Fine Arts
+          p.university dhaka university
+          p.about A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.A wonderful serenity has taken possession of my entire soul, like these sweet mornings.
+        .col-1.triangleLeft.ml-auto.p-2
+          p.year 2011-2012
+      .row.degree
+        .col-1.blue
+          p.year 2011-2012
+        .col-10.marginNone
+          h4 Bachelor of Fine Arts
+          p.university dhaka university
+          p.about A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.A wonderful serenity has taken possession of my entire soul, like these sweet mornings.
+        .col-md-1.empty
+  section.mySkill
+    .container
+      h2 my skill
+      .row.justify-content-between
+        .skills.col-12.col-lg-8
+          .row
+            .prof.col-12.col-md-6
+              p.title Professional Skills
+              p.skill User Strategy+Engineering
+              .slider
+                input#first(type='range', min='0', max='100', step='1', value='95')
+                span 95%
+              p.skill HTML
+              .slider
+                input#second(type='range', min='0', max='100', step='1', value='75')
+                span 75%
+              p.skill User Experience Design
+              .slider
+                input#third(type='range', min='0', max='100', step='1', value='55')
+                span 55%
+              p.skill User Strategy+Engineering
+              .slider
+                input#fourth(type='range', min='0', max='100', step='1', value='95')
+                span 95%
+            .prof.col-12.col-md-6
+              p.title.secondImg Personal Skills
+              p.skill User Strategy+Engineering
+              .slider
+                input#fifth(type='range', min='0', max='100', step='1', value='85')
+                span 85%
+              p.skill HTML
+              .slider
+                input#sixth(type='range', min='0', max='100', step='1', value='80')
+                span 80%
+              p.skill User Experience Design
+              .slider
+                input#seventh(type='range', min='0', max='100', step='1', value='95')
+                span 95%
+              p.skill User Strategy+Engineering
+              .slider
+                input#eighth(type='range', min='0', max='100', step='1', value='50')
+                span 50%
+        .languages.col-12.col-lg-3
+          .block
+            p English
+          .block.star4
+            p Benglai
+          .block.star4
+            p Spanish
+  section.portfolio
+    .container
+      h2 portfolio
+      ul
+        li 
+          a(href="#" alt="#") all
+        li
+          a(href="#" alt="#") web design
+        li
+          a(href="#" alt="#") apps
+        li
+          a(href="#" alt="#") dashboard
+        li
+          a(href="#" alt="#") branding
+      .row
+        .col-12
+          .item
+            img(src="assets/img/item1.jpg")
+            .shade
+              p.name Apps Design
+              p.about User Interface & User Experiance Design
+              a(href="#" alt="#") View case studies
+      .row
+        .col-12.col-md-6
+          .item
+            img(src="assets/img/item2.jpg")
+            .shade
+              p.name Apps Design
+              p.about User Interface & User Experiance Design
+              a(href="#" alt="#") View case studies
+          .item
+            img(src="assets/img/item4.jpg")
+            .shade
+              p.name Apps Design
+              p.about User Interface & User Experiance Design
+              a(href="#" alt="#") View case studies
+        .col-12.col-md-6
+          .item
+            img(src="assets/img/item3.jpg")
+            .shade
+              p.name Apps Design
+              p.about User Interface & User Experiance Design
+              a(href="#" alt="#") View case studies
+          .item
+            img(src="assets/img/item5.jpg")
+            .shade
+              p.name Apps Design
+              p.about User Interface & User Experiance Design
+              a(href="#" alt="#") View case studies
+      a.seeMore(href="#" alt="#") See More   
+  section.getInTouch
+    h2 get in touch
+    .container
+      .row
+        .col-12.col-lg-6
+          p.title Hire me 
+          .blockInput
+            input.input(type='text', name='name', placeholder="Your Name")
+            input.input(type='email', name='name', placeholder="Your Email")
+            input.input(type='text', name='name', placeholder="Your Topics")
+            textarea.input.input--message(type='text', name='name', placeholder="Message")
+            input.submit(type='submit', name='name', value="Send")
+        .col-12.col-lg-6.contact
+          p.title Address
+          p.address 69/A, Kit Street, NewYork NewYork 1000
+          p.email muslimmahin@gmail.com
+          p.number +880 175 XXX 7522
+            br
+            | +880 175 XXX 7522  
+          img(src="assets/img/map.jpg" alt="#")

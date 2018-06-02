@@ -1,0 +1,41 @@
+header
+  .header__container
+    .container
+      ul.navigation.list.d-lg-none
+        li
+          a.go_to(href=".aboutMe") About Me
+        li
+          a.go_to(href=".education") Education
+        li
+          a.go_to(href=".mySkill") Skill
+        li
+          a.go_to(href=".portfolio") Portfolio
+        li
+          a.go_to(href=".getInTouch") Clients
+        li
+          a.go_to(href=".getInTouch") Contact
+      .row.justify-content-end
+        button.hamburger.hamburgerFirst.hamburger--slider.d-lg-none(type='button')
+          span.hamburger-box
+            span.hamburger-inner
+      h1 I’m Josefin Doe
+      p User Interface & Experience designer
+      a.hire.go_to(href='.getInTouch' alt="#") hire me
+      a.scrollDown.d-none.d-lg-block.go_to(href='#navigation' alt="#")
+        img(src="assets/img/scrollDown.png")
+  nav.navigation#navigation.d-none.d-lg-block
+    .container
+      ul
+        li
+          a.go_to(href=".aboutMe") About Me
+        li
+          a.go_to(href=".education") Education
+        li
+          a.go_to(href=".mySkill") Skill
+        li
+          a.go_to(href=".portfolio") Portfolio
+        li
+          a.go_to(href=".getInTouch") Clients
+        li
+          a.go_to(href=".getInTouch") Contact
+            
